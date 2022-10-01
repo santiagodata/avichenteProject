@@ -72,6 +72,8 @@ REST_FRAMEWORK = {
     )
 }
 
+AUTH_USER_MODEL = 'avichenteApp.User'
+
 ROOT_URLCONF = 'avichenteProject.urls'
 
 TEMPLATES = [
