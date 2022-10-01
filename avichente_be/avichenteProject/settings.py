@@ -98,8 +98,12 @@ WSGI_APPLICATION = 'avichenteProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd566657lrnvtjn',
+        'USER': 'abdstidatxweuf',
+        'PASSWORD': 'b8010704405b3207c52d95f8c7bd6ca20fcd4a00fc5f28520eb40f800a02f63a',
+        'HOST': 'ec2-107-23-76-12.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
