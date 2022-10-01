@@ -101,10 +101,10 @@ WSGI_APPLICATION = 'avichenteProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd566657lrnvtjn',
-        'USER': 'abdstidatxweuf',
-        'PASSWORD': 'b8010704405b3207c52d95f8c7bd6ca20fcd4a00fc5f28520eb40f800a02f63a',
-        'HOST': 'ec2-107-23-76-12.compute-1.amazonaws.com',
+        'NAME': 'da33aoog12e6ke',
+        'USER': 'bpcqixmtqmkekv',
+        'PASSWORD': 'e6e66a10c51e1c7caa19f12fc9094ee8c015841bfd7e9c526dbbe87d46fb784e',
+        'HOST': 'ec2-35-170-146-54.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
